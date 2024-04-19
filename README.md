@@ -1,3 +1,5 @@
+## This Repository is clone from https://github.com/nftblackmagic/sdwebui-api-manager and has some fine tune
+
 ## Problem of stable diffusion webui
 
 Stable diffusion webui provides a powerful tool for AI image generation. However, the webui api has some limitations:
