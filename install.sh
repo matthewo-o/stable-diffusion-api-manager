@@ -69,6 +69,8 @@ aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/SG1
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/8137 -d ./stable-diffusion-webui/models/Stable-diffusion -o realdosmix_.safetensors
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/90072?type=Model&format=SafeTensor&size=pruned&fp=fp16  -d ./stable-diffusion-webui/models/Stable-diffusion -o photon_v1.safetensors
 
+aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/396642 -d ./stable-diffusion-webui/models/Lora -o kanna_hashimoto.safetensors
+aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/98656 -d ./stable-diffusion-webui/models/Lora -o fontimo.safetensors
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/xiaozaa/animaTest/resolve/main/animeoutlineV4_16.safetensors -d ./stable-diffusion-webui/models/Lora -o animeoutlineV4_16.safetensors
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/Sasulee/animeLineartMangaLike_v30MangaLike/resolve/main/animeLineartMangaLike_v30MangaLike.safetensors -d ./stable-diffusion-webui/models/Lora -o animeLineartMangaLike_v30MangaLike.safetensors
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/22917 -d ./stable-diffusion-webui/models/Lora -o addielyn_v1_chilloutmix_NiPrunedFp16Fix_100_33pic_epoc.safetensors
